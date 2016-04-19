@@ -1,0 +1,56 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans	
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+ 
+		http://www.springframework.org/schema/tx 
+		http://www.springframework.org/schema/tx/spring-tx.xsd
+ 
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<context:component-scan base-package="com.remotecontrol" />
+	
+
+	<bean id="temperatureReader" class="com.remotecontrol.OneWireTemperatureReader" />
+	<bean id="powerSwitch" class="com.remotecontrol.WeMoPowerSwitch" >
+		<constructor-arg name="serviceUri_" value="/upnp/control/basicevent1"/>
+	</bean>
+	<bean id="remoteControlServiceBean" class="com.remotecontrol.RemoteControlService">
+		<property name="temperatureReader" ref="temperatureReader"/>
+		<property name="powerSwitch" ref="powerSwitch"/>
+		<property name="zones">
+			<array>
+				<bean id="zone1" class="com.remotecontrol.Zone">
+					<property name="id" value="1" />
+					<property name="setpointFile" value="/home/pi/sp1" />
+					<property name="feedbackFile"
+						value="/sys/bus/w1/devices/10-0008027cac02/w1_slave" />
+					<property name="outputGroup" value="a" />
+					<property name="ip" value="arkper1.ddns.net" />
+					<property name="port" value="49153" />
+					<property name="hysterisis" value="0.5"/>
+				</bean>
+				<!-- <bean id="zone2" class="com.remotecontrol.Zone"> -->
+				<!-- <property name="id" value="2" /> -->
+				<!-- <property name="setpointFile" value="c:/temp/sp2" /> -->
+				<!-- <property name="feedbackFile" value="c:/temp/fb2" /> -->
+				<!-- <property name="outputGroup" value="a" /> -->
+				<!-- </bean> -->
+				<!-- <bean id="zone3" class="com.remotecontrol.Zone"> -->
+				<!-- <property name="id" value="3" /> -->
+				<!-- <property name="setpointFile" value="c:/temp/sp3" /> -->
+				<!-- <property name="feedbackFile" value="c:/temp/fb3" /> -->
+				<!-- <property name="outputGroup" value="a" /> -->
+				<!-- </bean> -->
+			</array>
+		</property>
+	</bean>
+	<bean id="runMeTask" class="com.remotecontrol.TemperatureController">
+		<property name="remoteControlServiceBean" ref="remoteControlServiceBean"/>
+	</bean>
+
+
+</beans>
