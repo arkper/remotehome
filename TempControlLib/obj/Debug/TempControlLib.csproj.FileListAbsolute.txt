@@ -1,0 +1,18 @@
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\bin\Debug\TempControlLib.dll.config
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\bin\Debug\TempControlLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\bin\Debug\TempControlLib.pdb
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\bin\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\obj\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\obj\Debug\TempControlLib.csproj.ResolveComReference.cache
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\obj\Debug\TempControlLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TempControlLib\obj\Debug\TempControlLib.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\bin\Debug\log4net.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\obj\Debug\TempControlLib.csprojResolveAssemblyReference.cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Debug\TempControlLib.dll.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Debug\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Debug\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Debug\TempControlLib.csproj.ResolveComReference.cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Debug\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Debug\TempControlLib.pdb

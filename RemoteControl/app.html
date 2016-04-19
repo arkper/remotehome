@@ -1,0 +1,157 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <title>Home Remote Automation Console</title>
+
+    <script type="text/javascript">
+
+        var state = new Array();
+        var zones = new Array();
+        var firstTime = true;
+
+        function getState()
+        {
+            command = "TempControl.aspx?op=getState";
+
+            sendRequest (command, function(responseText){
+                zones = JSON.parse(responseText);
+                renderZones();
+            });
+        }
+
+        function renderZones()
+        {
+        	var tblObj = document.getElementById('container');
+
+        	tblObj.width = 300 * zones.length;
+
+        	for (i in zones)
+        	{
+        	    zone = zones[i];
+        	    if (firstTime)
+        	    {
+        	        var tblBodyObj = document.getElementById('container').tBodies[0];
+        	        var newCell = tblBodyObj.rows[0].insertCell(-1);
+        	        newCell.innerHTML = "<div>ZONE " + zone.id + "</div>";
+        	        newCell.width = "300";
+        	        newCell.style.textAlign = "center";
+        	        newCell.style.fontSize = "26px";
+        	        newCell = tblBodyObj.rows[1].insertCell(-1);
+        	        newCell.innerHTML = "<img id='bulb" + zone.id + "' />";
+        	        newCell.width = "300";
+        	        newCell.align = "center";
+        	        newCell = tblBodyObj.rows[2].insertCell(-1);
+        	        newCell.innerHTML = "<img id='a" + zone.id + "' onclick='onClick(this)' width='300' height='400'/>";
+        	        newCell.width = "300";
+        	        newCell.align = "center";
+        	        newCell = tblBodyObj.rows[3].insertCell(-1);
+        	        newCell.width = "300";
+        	        newCell.align = "center";
+        	        newCell.innerHTML = "<div id='t" + zone.id + "' />";
+        	        newCell = tblBodyObj.rows[4].insertCell(-1);
+        	        newCell.width = "300";
+        	        newCell.align = "center";
+        	        newCell.innerHTML = "<input id='sp" + zone.id + "' width='100%'  onchange='changeZoneSetpoint(this)'/>";
+
+        	    }
+
+        	    if (document.getElementById(zone.outputGroup + zone.id) != null)
+				    document.getElementById(zone.outputGroup + zone.id).src = getImage1(zone.currentState);
+				if (document.getElementById("bulb" + zone.id) != null)
+				    document.getElementById("bulb" + zone.id).src = getImage2(zone.currentState);
+
+				element = document.getElementById("sp" + zone.id);
+				if (element != null) {
+				    element.value = zone.setpoint;
+				    element.style.fontSize = "26px";
+				    element.style.height = "30";
+				    element.style.width = "100%";
+				    element.style.textAlign = "center";
+				}
+
+				element = document.getElementById("t" + zone.id);
+				if (element != null) {
+				    element.innerText = zone.feedback + ' F';
+				    element.style.fontSize = "26px";
+				}
+
+            }
+        	firstTime = false;
+        }
+
+
+        function sendRequest(url, callback)
+        {
+                xmlRequest = new XMLHttpRequest();
+
+                xmlRequest.onreadystatechange=function()
+                {
+                    if (xmlRequest.readyState==4 && xmlRequest.status==200)
+                    {
+                            callback(xmlRequest.responseText);
+                    }
+                }
+
+                xmlRequest.open("GET", command ,true);
+                xmlRequest.send();
+        }
+
+
+        function getImage1(state)
+        {
+			return state + "_switch.jpg";
+        }
+
+        function getImage2(state)
+        {
+			return state + "_bulb.png";
+        }
+
+        function changeZoneSetpoint(element)
+        {
+        	newSetpoint = element.value;
+        	zoneId = element.id.substr(2);
+        	command = "TempControl.aspx?op=set&zoneId=" + zoneId + "&sp=" + newSetpoint;
+            sendRequest (command, function(responseText){
+            	zones = JSON.parse(responseText);
+                renderZones();
+            });
+        }
+
+        function onClick(element)
+        {
+        	zoneId = element.id.substr(1);
+        	zone = zones[zoneId-1];
+
+            if (zone.currentState == 'on')
+            	newstate='off';
+            else
+            	newstate='on';
+
+            command = "TempControl.aspx?op=setState&zoneId=" + zone.id + "&state=" + newstate;
+
+            // alert ('Curent state is ' + zone.currentState + '\nSending command: ' + command);
+
+            sendRequest (command, function(responseText){
+            	zone.currentState = responseText.replace('\n', '');
+            	renderZones();
+            });
+        }
+
+
+    </script>
+
+
+</head>
+<body onload="getState()">
+    <table id="container" border='0'>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+</body>
+</html>

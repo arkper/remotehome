@@ -1,0 +1,6 @@
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\bin\Debug\WcfRemoteControlService.dll.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\bin\Debug\WcfRemoteControlService.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\bin\Debug\WcfRemoteControlService.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\obj\Debug\WcfRemoteControlService.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\obj\Debug\WcfRemoteControlService.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\obj\Debug\WcfRemoteControlService.csprojResolveAssemblyReference.cache

@@ -1,0 +1,31 @@
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.csprojResolveAssemblyReference.cache
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.exe.config
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.exe
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.pdb
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\log4net.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\TempControlLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\TempControlLib.pdb
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.exe
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.pdb
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.ProjectInstaller.resources
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.csproj.GenerateResource.Cache
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.exe.manifest
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.application
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.exe.manifest
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.application
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.csprojResolveAssemblyReference.cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.ProjectInstaller.resources
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.csproj.GenerateResource.Cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.exe.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.exe.manifest
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.application
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\TemperatureControlService.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Debug\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.exe.manifest
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Debug\TemperatureControlService.application

@@ -1,0 +1,20 @@
+c:\users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\RemoteControl.dll.config
+c:\users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\RemoteControl.dll
+c:\users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\RemoteControl.pdb
+c:\users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\obj\Release\RemoteControl.dll
+c:\users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\obj\Release\RemoteControl.pdb
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\obj\Release\RemoteControl.csprojResolveAssemblyReference.cache
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\TempControlLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl\bin\TempControlLib.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\RemoteControl\bin\log4net.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\bin\RemoteControl.dll.config
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\bin\RemoteControl.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\bin\RemoteControl.pdb
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\bin\TempControlLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\bin\log4net.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\bin\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\bin\TempControlLib.pdb
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\obj\Release\RemoteControl.csprojResolveAssemblyReference.cache
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\obj\Release\RemoteControl.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\RemoteControl\obj\Release\RemoteControl.pdb

@@ -1,0 +1,28 @@
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.csprojResolveAssemblyReference.cache
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\obj\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.csproj.ResolveComReference.cache
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.dll.config
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\bin\Release\log4net.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TempControlLib\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.dll.config
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.pdb
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.csprojResolveAssemblyReference.cache
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.csproj.ResolveComReference.cache
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.dll.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.csproj.ResolveComReference.cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TempControlLib\obj\Release\TempControlLib.csprojResolveAssemblyReference.cache

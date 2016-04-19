@@ -1,0 +1,31 @@
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.exe.config
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.exe
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\log4net.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\TempControlLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\TempControlLib.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.csprojResolveAssemblyReference.cache
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.ProjectInstaller.resources
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.csproj.GenerateResource.Cache
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.exe
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.exe.manifest
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.application
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.exe.manifest
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.application
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.csprojResolveAssemblyReference.cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.ProjectInstaller.resources
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.csproj.GenerateResource.Cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.exe.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.exe.manifest
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.application
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\TemperatureControlService.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\bin\Release\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.exe.manifest
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlService\obj\Release\TemperatureControlService.application

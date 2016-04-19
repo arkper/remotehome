@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="RemoteHome/TempControl" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="AppHostConfig" match="^RemoteControl/TempControl$" />
+    <parameterEntry kind="ProviderPath" scope="contentPath" match="^C:\\Users\\arkady\\documents\\visual\ studio\ 2013\\Projects\\RemoteControl\\RemoteControl\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\arkady\\documents\\visual\ studio\ 2013\\Projects\\RemoteControl\\RemoteControl\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="IIS Web Application Pool Name" description="" value="ASP.NET v4.0" tags="">
+    <parameterEntry kind="DeploymentObjectAttribute" scope="application" match="application[@applicationPool='Clr4IntegratedAppPool']/@applicationPool" />
+  </parameter>
+  <parameter name="IisVirtualDirectoryPhysicalPath" description="" value="C:\Users\arkady\documents\visual studio 2013\Projects\RemoteControl\RemoteControl_deploy" tags="PhysicalPath">
+    <parameterEntry kind="DestinationVirtualDirectory" scope=".*" match="^C:\\Users\\arkady\\documents\\visual\ studio\ 2013\\Projects\\RemoteControl\\RemoteControl$" />
+  </parameter>
+</parameters>

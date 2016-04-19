@@ -1,0 +1,28 @@
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.exe.config
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.exe
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.csprojResolveAssemblyReference.cache
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.exe
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TempControlLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Release\log4net.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TempControlLib.pdb
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.exe.config
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.exe
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.pdb
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.exe
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.pdb
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TempControlLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TempControlLib.pdb
+C:\Users\arkady\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.csprojResolveAssemblyReference.cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.exe.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TemperatureControlConsole.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Release\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Release\TemperatureControlConsole.csprojResolveAssemblyReference.cache

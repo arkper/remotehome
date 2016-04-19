@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TempControlLib.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="zones" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="TempZones" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[{'id':'1','setpointFile':'c:/temp/sp1','setpoint':'60','feedbackFile':'c:/temp/fb1','feedback':'0','outputGroup':'a','outputId':'1','currentState':'off','hysterisis':'1','calibration':'-4','ip':'192.168.1.7','port':'49153'}]</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

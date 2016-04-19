@@ -1,0 +1,5 @@
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\bin\Release\WcfRemoteControlService.dll.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\bin\Release\WcfRemoteControlService.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\bin\Release\WcfRemoteControlService.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\obj\Release\WcfRemoteControlService.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\WcfRemoteControlService\obj\Release\WcfRemoteControlService.pdb

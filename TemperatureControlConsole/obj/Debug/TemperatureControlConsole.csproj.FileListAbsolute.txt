@@ -1,0 +1,19 @@
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TemperatureControlConsole.exe.config
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TemperatureControlConsole.exe
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TemperatureControlConsole.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\log4net.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TempControlLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TempControlLib.pdb
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\obj\Debug\TemperatureControlConsole.csprojResolveAssemblyReference.cache
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\obj\Debug\TemperatureControlConsole.exe
+C:\Users\arkady\Documents\Visual Studio 2013\Projects\RemoteControl\TemperatureControlConsole\obj\Debug\TemperatureControlConsole.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TemperatureControlConsole.exe.config
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TemperatureControlConsole.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TemperatureControlConsole.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TempControlLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\Interop.ActiveHomeScriptLib.dll
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\bin\Debug\TempControlLib.pdb
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Debug\TemperatureControlConsole.csprojResolveAssemblyReference.cache
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Debug\TemperatureControlConsole.exe
+C:\Users\arkper\Dropbox\Projects\RemoteControl\TemperatureControlConsole\obj\Debug\TemperatureControlConsole.pdb
