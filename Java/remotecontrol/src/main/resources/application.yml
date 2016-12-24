@@ -11,7 +11,7 @@ zoneConfiguration:
       setpointFile: '/home/pi/sp1'
       feedbackFile: '/home/pi/fb1'
       hysterisis: 0.5
-      ip: 'localhost'
+      ip: 'arkper.ddns.net'
       port: 1099
       temperature: false
     -
@@ -22,7 +22,7 @@ zoneConfiguration:
       setpointFile: '/home/pi/sp1'
       feedbackFile: '/home/pi/fb1'
       hysterisis: 0.5
-      ip: 'localhost'
+      ip: 'arkper.ddns.net'
       port: 1099
       temperature: false
     -
@@ -33,7 +33,7 @@ zoneConfiguration:
       setpointFile: '/home/pi/sp1'
       feedbackFile: '/home/pi/fb1'
       hysterisis: 0.5
-      ip: 'localhost'
+      ip: 'arkper.ddns.net'
       port: 1099
       temperature: false
       
