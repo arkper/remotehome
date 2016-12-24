@@ -1,0 +1,200 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="refresh" content="30">
+    <title>Home Remote Automation Console</title>
+
+    <script type="text/javascript">
+
+        var state = new Array();
+        var zones = new Array();
+        var firstTime = true;
+
+        function getState()
+        {
+            command = "rest/zones/all";
+
+            sendRequest (command, function(responseText){
+                zones = JSON.parse(responseText);
+                renderZones();
+            });
+        }
+
+        function renderZones()
+        {
+        	var tblObj = document.getElementById('container');
+
+        	tblObj.width = 350 * zones.length;
+
+        	for (i in zones)
+        	{
+        	    zone = zones[i];
+        	    if (firstTime)
+        	    {
+        	        var tblBodyObj = document.getElementById('container').tBodies[0];
+        	        var newCell = tblBodyObj.rows[0].insertCell(-1);
+        	        newCell.colspan="2";
+        	        newCell.innerHTML = "<div>" + zone.name + "</div>";
+        	        newCell.width = "350";
+        	        newCell.style.textAlign = "center";
+        	        newCell.style.fontSize = "30px";
+        	        newCell = tblBodyObj.rows[1].insertCell(-1);
+        	        newCell.colspan="2";
+        	        newCell.innerHTML = "<img id='bulb" + zone.id + "' width='80%'/>";
+        	        newCell.width = "350";
+        	        newCell.align = "center";
+        	        newCell = tblBodyObj.rows[2].insertCell(-1);
+        	        newCell.colspan="2";
+        	        newCell.innerHTML = "<img id='a" + zone.id + "' onclick='onClick(this)' width='350' height=''/>";
+        	        newCell.width = "350";
+        	        newCell.align = "center";
+        	        
+        	        if (zone.temperature) {
+            	        newCell = tblBodyObj.rows[3].insertCell(-1);
+            	        newCell.colspan="2";
+            	        newCell.width = "350";
+            	        newCell.align = "center";
+            	        newCell.innerHTML = "<div id='t" + zone.id + "' />";
+            	        newCell = tblBodyObj.rows[4].insertCell(-1);
+            	        newCell.colspan="2";
+            	        newCell.width = "350";
+            	        newCell.align = "center";
+            	        newCell.innerHTML = "<input id='sp" + zone.id + "' width='100%'  onchange='changeZoneSetpoint(this)'/>";
+
+            	        newCell = tblBodyObj.rows[5].insertCell(-1);
+            	        newCell.width = "350";
+            	        newCell.align = "center";
+    				    newCell.style.fontSize = "30px";
+            	        newCell.innerHTML = "<img id='auto" + zone.id + "' onclick='changeZoneAuto(this)' width='128' height='128'/>";
+        	        }
+
+        	    }
+
+        	    if (document.getElementById(zone.outputGroup + zone.id) != null)
+				    document.getElementById(zone.outputGroup + zone.id).src = getImage1(zone.currentState);
+				if (document.getElementById("bulb" + zone.id) != null)
+				    document.getElementById("bulb" + zone.id).src = getImage2(zone.currentState);
+
+				element = document.getElementById("sp" + zone.id);
+				if (element != null) {
+				    element.value = zone.setpoint;
+				    element.style.height = "30px";
+				    element.style.fontSize = "30px";
+				    element.style.width = "100%";
+				    element.style.textAlign = "center";
+				}
+
+				element = document.getElementById("t" + zone.id);
+				if (element != null) {
+				    element.innerText = zone.feedback + ' F';
+				    element.style.fontSize = "30px";
+				}
+
+				element = document.getElementById("auto" + zone.id);
+				if (element != null) {
+				    document.getElementById("auto" + zone.id).src = getImage3(zone.auto);
+				}
+
+            }
+        	firstTime = false;
+        }
+
+
+        function sendRequest(url, callback)
+        {
+                xmlRequest = new XMLHttpRequest();
+
+                xmlRequest.onreadystatechange=function()
+                {
+                    if (xmlRequest.readyState==4 && xmlRequest.status==200)
+                    {
+                            callback(xmlRequest.responseText);
+                    }
+                }
+
+                xmlRequest.open("GET", command, true);
+                xmlRequest.send();
+        }
+
+
+        function getImage1(state)
+        {
+			return state + "_switch.jpg";
+        }
+
+        function getImage2(state)
+        {
+			return state + "_bulb.png";
+        }
+
+        function getImage3(auto)
+        {
+        	if (auto)
+				return "play.png";
+        	else
+        		return "cancel.png";
+        }
+
+        function changeZoneSetpoint(element)
+        {
+        	newSetpoint = element.value;
+        	zoneId = element.id.substr(2);
+        	command = "rest/zones/" + zoneId + "/sp/" + newSetpoint;
+            sendRequest (command, function(responseText){
+            	zones = JSON.parse(responseText);
+                renderZones();
+            });
+        }
+
+        
+        function changeZoneAuto(element)
+        {
+        	zoneId = element.id.substr(4);
+
+        	var newAuto = !zones[zoneId-1].auto;
+			
+        	command = "rest/zones/" + zoneId + "/auto/" + newAuto;
+            sendRequest (command, function(responseText){
+            	zones = JSON.parse(responseText);
+                renderZones();
+            });
+        }
+
+        function onClick(element)
+        {
+        	zoneId = element.id.substr(1);
+        	zone = zones[zoneId-1];
+
+            if (zone.currentState == 'on')
+            	newstate='off';
+            else
+            	newstate='on';
+
+            command = "rest/zones/" + zoneId + "/newState/" + newstate;
+
+            //alert ('Current state is ' + zone.currentState + '\nSending command: ' + command);
+
+            sendRequest (command, function(responseText){
+            	zones = JSON.parse(responseText);
+            	renderZones();
+            });
+        }
+
+
+    </script>
+
+
+</head>
+<body onload="getState()">
+    <table id="container" border='0' align="center" width="100%">
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+</body>
+</html>

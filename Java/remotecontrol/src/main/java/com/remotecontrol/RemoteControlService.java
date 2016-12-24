@@ -1,31 +1,48 @@
 package com.remotecontrol;
 import java.util.List;
 
+import javax.annotation.PostConstruct;
 import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.PathVariable;
+
+
+
+
+import com.remotecontrol.ZoneConfiguration.Zone;
 
 import java.io.*;
-//import org.springframework.stereotype.Component;
 
  
-@Path("/zones")
+
+@RestController
+@RequestMapping("/rest/zones")
 public class RemoteControlService {
 	
 	private static final Logger logger = Logger.getLogger(RemoteControlService.class);
 	
+	@Autowired
+	private ZoneConfiguration zoneConfig;
+	
 	private List<Zone> zones;
+	
 	public List<Zone> getZones() {
-		return zones;
-	}
-	public void setZones(List<Zone> zones) {
-		this.zones = zones;
+		return zoneConfig.getZones();
 	}
 
+	@PostConstruct
+	public void init() {
+		this.zones = zoneConfig.getZones();
+	}
+	
+	
+	@Autowired
 	private TemperatureReader temperatureReader;
 	public TemperatureReader getTemperatureReader() {
 		return temperatureReader;
@@ -34,6 +51,7 @@ public class RemoteControlService {
 		this.temperatureReader = temperatureReader;
 	}
 	
+	@Autowired
 	private PowerSwitch powerSwitch;
 	public PowerSwitch getPowerSwitch() {
 		return powerSwitch;
@@ -43,7 +61,7 @@ public class RemoteControlService {
 	}
 
 	@GET
-	@Path("/all")
+	@RequestMapping("/all")
 	@Produces("application/json")
 	public List<Zone> getAllZones() throws Exception {
 		for (int i=0; i<zones.size(); i++)
@@ -54,24 +72,26 @@ public class RemoteControlService {
 	}
 
 	@GET
-	@Path("/{param}")
+	@RequestMapping("/{zoneId}")
 	@Produces("application/json")
-	public Zone getZone(@PathParam("param") Integer zoneId_) throws Exception {
+	public Zone getZone(@PathVariable ("zoneId") Integer zoneId_) throws Exception {
 		Zone zone = zones.get(zoneId_);
 		
-		getSetpoint(zone);
-		
-		getFeedback(zone);
-		
 		getState(zone);
+
+		if (zone.isTemperature()) {
+			getSetpoint(zone);
+			
+			getFeedback(zone);
+		}
 		
 		return zone;
 	}
 	
 	@GET
-	@Path("/{zoneId}/sp/{newSp}")
+	@RequestMapping("/{zoneId}/sp/{newSp}")
 	@Produces("application/json")
-	public List<Zone> setNewSetpoint(@PathParam("zoneId") Integer zoneId_, @PathParam("newSp") Float newSp_ ) throws Exception {
+	public List<Zone> setNewSetpoint(@PathVariable("zoneId") Integer zoneId_, @PathVariable("newSp") Float newSp_ ) throws Exception {
 		logger.debug(String.format("setNewSetpoint for %s new sp %s", zoneId_.toString(), newSp_.toString()));
 		
 		Zone zone = zones.get(zoneId_-1);
@@ -87,9 +107,9 @@ public class RemoteControlService {
 	
 
 	@GET
-	@Path("/{zoneId}/auto/{newAuto}")
+	@RequestMapping("/{zoneId}/auto/{newAuto}")
 	@Produces("application/json")
-	public List<Zone> setNewAutomode(@PathParam("zoneId") Integer zoneId_, @PathParam("newAuto") Boolean newAuto_ ) throws Exception {
+	public List<Zone> setNewAutomode(@PathVariable("zoneId") Integer zoneId_, @PathVariable("newAuto") Boolean newAuto_ ) throws Exception {
 		logger.debug(String.format("setNewAutomode for %s new sp %s", zoneId_.toString(), newAuto_.toString()));
 		
 		Zone zone = zones.get(zoneId_-1);
@@ -105,9 +125,9 @@ public class RemoteControlService {
 	
 
 	@GET
-	@Path("/{zoneId}/newState/{newState}")
+	@RequestMapping("/{zoneId}/newState/{newState}")
 	@Produces("application/json")
-	public List<Zone> setNewState(@PathParam("zoneId") Integer zoneId_, @PathParam("newState") String newState_ ) throws Exception {
+	public List<Zone> setNewState(@PathVariable("zoneId") Integer zoneId_, @PathVariable("newState") String newState_ ) throws Exception {
 		logger.debug(String.format("setNewState for %s new state %s", zoneId_.toString(), newState_));
 		
 		Zone zone = zones.get(zoneId_-1);

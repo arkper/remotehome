@@ -1,0 +1,39 @@
+scan:
+  interval: 30000
+
+zoneConfiguration:
+  zones:
+    -
+      id: '1'
+      name: 'Lamp 1'
+      outputGroup: 'a'
+      outputId: '1'
+      setpointFile: '/home/pi/sp1'
+      feedbackFile: '/home/pi/fb1'
+      hysterisis: 0.5
+      ip: 'localhost'
+      port: 1099
+      temperature: false
+    -
+      id: '2'
+      name: 'Bathroom'
+      outputGroup: 'a'
+      outputId: '2'
+      setpointFile: '/home/pi/sp1'
+      feedbackFile: '/home/pi/fb1'
+      hysterisis: 0.5
+      ip: 'localhost'
+      port: 1099
+      temperature: false
+    -
+      id: '3'
+      outputGroup: 'a'
+      name: 'Control Room'
+      outputId: '3'
+      setpointFile: '/home/pi/sp1'
+      feedbackFile: '/home/pi/fb1'
+      hysterisis: 0.5
+      ip: 'localhost'
+      port: 1099
+      temperature: false
+      

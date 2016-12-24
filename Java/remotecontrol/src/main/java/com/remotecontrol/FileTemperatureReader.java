@@ -4,6 +4,8 @@ import java.io.File;
 
 import org.apache.commons.io.FileUtils;
 
+import com.remotecontrol.ZoneConfiguration.Zone;
+
 public class FileTemperatureReader implements TemperatureReader {
 
 	public float read(Zone zone_) throws Exception {

@@ -66,7 +66,7 @@
 
 	</bean>
 
-	<!-- Simple Trigger, run every 5 seconds -->
+	<!-- Simple Trigger, run every 30 seconds -->
 	<bean id="simpleTrigger" 
                 class="org.springframework.scheduling.quartz.SimpleTriggerBean">
 

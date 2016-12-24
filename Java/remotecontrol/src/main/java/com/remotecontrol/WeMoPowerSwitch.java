@@ -15,6 +15,8 @@ import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import org.w3c.dom.Document;
 
+import com.remotecontrol.ZoneConfiguration.Zone;
+
 public class WeMoPowerSwitch implements PowerSwitch{
 
 	private static final Logger logger = Logger.getLogger(WeMoPowerSwitch.class);

@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.math.BigDecimal;
 
+import com.remotecontrol.ZoneConfiguration.Zone;
+
 public class OneWireTemperatureReader implements TemperatureReader
 {
    public float read(Zone zone_) throws Exception
